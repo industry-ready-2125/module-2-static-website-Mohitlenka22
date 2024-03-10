@@ -147,6 +147,12 @@ body {
   width: 160px;
 }
 
+.btn-playlist:hover {
+  color: black;
+  border: 1px solid black;
+  transition: 1.5s;
+}
+
 /* right */
 
 .music-card-container {
@@ -505,29 +511,41 @@ p {
 }
 #pro-header {
   width: 100%;
-  position: fixed;
-  mix-blend-mode: darken;
-  background-color: transparent;
+  background-color: rgb(40, 39, 39);
+  border-bottom: 1px solid #3a3838;
 }
 
-/* #pro-header nav ul {
-  background-color: rgb(60, 58, 58);
-
+.part2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  right: 9rem;
+  opacity: 0.8;
 }
-#pro-header nav ul li {
-  background-color: rgb(60, 58, 58);
-} */
 
+.part2 #li {
+  border: 1px solid #fff8f8;
+  padding: 10px 20px;
+  border-radius: 24px;
+  background-color: rgb(40, 39, 39);
+}
+#li:hover {
+  background-color: #fff;
+  color: black;
+}
 .plans-con {
-  height: 100vh;
+  height: 140vh;
   width: 100%;
   background-color: rgb(40, 39, 39);
   position: relative;
-  top: 4rem;
+  top: 0rem;
 }
 
 .next {
   height: 100rem;
+  background-color: whitesmoke;
 }
 
 #plan-context {
@@ -551,6 +569,12 @@ p {
   left: 15.5rem;
   top: 3rem;
   margin-right: 20px;
+}
+
+.price-card:hover {
+  background-color: rgb(25, 203, 182);
+  transform: scale(1.02);
+  transition: 0.5s;
 }
 #card-title {
   background-color: rgb(25, 203, 182);
@@ -650,4 +674,228 @@ p {
 .cards-con {
   display: flex;
   background-color: rgb(40, 39, 39);
+}
+
+.card-hover {
+  display: flex;
+  position: relative;
+  bottom: 6rem;
+  left: 9rem;
+  padding: 120px;
+  background-color: #fff;
+  width: 67%;
+  border-radius: 8px;
+}
+.card-hover ul {
+  background-color: #fff;
+}
+.card-hover ul li {
+  background-color: #fff;
+}
+.card-hover ul h2 {
+  background-color: #fff;
+  width: 200px;
+  font-size: 20px;
+}
+
+.app-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#apple-icon,
+#playstore-icon,
+#jio-icon {
+  height: 40px;
+  width: 40px;
+  mix-blend-mode: darken;
+  padding: 10px;
+}
+.icons-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+#cap-li {
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.brand-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+#sonos-icon,
+#alexa-icon,
+#home-icon {
+  height: 30px;
+  width: 144px;
+  mix-blend-mode: darken;
+  padding: 10px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.angle {
+  transform: skewY(3.5deg);
+  transform-origin: 100%;
+  /* background-color: red; */
+}
+
+.fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 171rem;
+  right: 0;
+  z-index: 0;
+  height: 10rem;
+}
+
+#go-pro-footer li {
+  background-color: #2a2d36;
+  padding-bottom: 15px;
+  color: white;
+  opacity: 0.4;
+}
+#foot-head {
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #4f4e4e;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #2a2d36;
+  color: white;
+  font-size: 15px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+#go-pro .row-one {
+  border: none;
+  margin-bottom: 30rem;
+  margin-left: 15rem;
+}
+
+.pro-foot-two-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 27rem;
+  background-color: #2a2d36;
+  border-top: 1px solid #6d6868;
+  opacity: 0.8;
+  padding: 15px;
+}
+
+.table-list {
+  position: relative;
+  z-index: 1;
+  margin: 50px auto;
+  width: 90vw;
+  max-width: 780px;
+  border-collapse: separate;
+  font-weight: 700;
+}
+table {
+  border-spacing: 0;
+  vertical-align: baseline;
+}
+.table-list th:first-child,
+.table-list td:first-child {
+  text-align: left;
+}
+.table-list th {
+  padding: 1.125em 0;
+}
+
+.table-list th,
+.table-list td {
+  border-bottom: 1px solid rgba(62, 62, 62, 0.1);
+}
+.deca {
+  font-size: 1.125em;
+}
+
+.table-list tr:first-child th.table-list-highlight {
+  border-radius: 4px 4px 0 0;
+}
+
+.table-con {
+  /* height: 5rem; */
+  height: 100px;
+  position: absolute;
+  top: 115rem;
+  left: 27rem;
+}
+tbody {
+  height: 480px;
+  width: 530px;
+}
+
+.table-con {
+  max-height: 70%;
+  max-width: 1200px; /* Adjust the width as needed */
+}
+
+.table-list {
+  width: 200%;
+}
+
+.table-list-main {
+  width: 60%; /* Adjust the width of the first column */
+}
+
+.table-list-free,
+.table-list-pro {
+  width: 30%; /* Adjust the width of the second and third columns */
+}
+
+table svg {
+  height: 15px;
+}
+
+.plan-btn {
+  position: absolute;
+  top: 157rem;
+  left: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-btn h2 {
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.plan-btn h3 {
+  opacity: 0.6;
+  margin-right: 4rem;
+  font-weight: 400;
+}
+
+.plan-btn button {
+  width: 180px;
+  padding: 15px 35px;
+  font-size: 18px;
+  border-radius: 36px;
+  background-color: rgb(37, 205, 185);
+  border: none;
+  color: white;
 }

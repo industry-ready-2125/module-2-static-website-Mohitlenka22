@@ -7,17 +7,17 @@
     <link rel="icon" href="https://staticfe.saavn.com/web6/jioindw/dist/1709889847/_i/favicon.ico" />
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <div class="nav-part1">
-            <img id="banner" src="images/banner.png" alt="banner" />
+            <a href="index.html"> <img id="banner" src="images/banner.png" alt="banner" /></a>
             <li><a href="#">Music</a></li>
             <li><a href="#">Podcasts</a></li>
-            <li><a href="#">Go Pro</a></li>
+            <li><a href="page03.html">Go Pro</a></li>
           </div>
           <div class="nav-part2">
             <input type="search" placeholder=" &#128269;Search" />
@@ -33,7 +33,7 @@
     <main>
       <div class="left-nav">
         <ul>
-          <h5 id="left-nav-heading">B R O W S E</h5>
+          <h5 id="left-nav-heading" style="letter-spacing: 1px">BROWSE</h5>
           <section class="section-1">
             <li>New Releases</li>
             <li>Top Charts</li>
@@ -42,13 +42,13 @@
             <li>Top Artists</li>
             <li>Radio</li>
           </section>
-          <h5 id="left-nav-heading">L I B R A R Y</h5>
+          <h5 id="left-nav-heading" style="letter-spacing: 1px">LIBRARY</h5>
           <section class="section-2">
-            <li>History</li>
-            <li>Liked Songs</li>
-            <li>Albums</li>
-            <li>Podcasts</li>
-            <li>Artists</li>
+            <li><i style="padding-right: 5px" class="fas fa-history"></i> History</li>
+            <li><i style="padding-right: 5px" class="fas fa-music"></i> Liked Songs</li>
+            <li><i style="padding-right: 5px" class="fas fa-compact-disc"></i>Albums</li>
+            <li><i style="padding-right: 5px" class="fas fa-podcast"></i> Podcasts</li>
+            <li><i style="padding-right: 5px" class="fas fa-microphone"></i> Artists</li>
           </section>
           <button class="btn-playlist">
             <li class="plus-ico">+</li>
@@ -430,17 +430,19 @@
                 <li>&copy; 2024 Saavn Media Limited All rights reserved.</li>
               </ul>
               <div class="social-icons">
-               <h5>FOLLOW US</h5>
-               <img id="footer-icon" src="images/facebook.png" alt="facebook">
-               <img id="footer-icon" src="images/twitter.png" alt="twitter">
-               <img id="footer-icon" src="images/youtube.png" alt="youtube">
-               <img id="footer-icon" src="images/instagram.png" alt="instagram">
-               <img id="footer-icon" src="images/linkedin.webp" alt="linkedin">
+                <h5>FOLLOW US</h5>
+                <img id="footer-icon" src="images/facebook.png" alt="facebook" />
+                <img id="footer-icon" src="images/twitter.png" alt="twitter" />
+                <img id="footer-icon" src="images/youtube.png" alt="youtube" />
+                <img id="footer-icon" src="images/instagram.png" alt="instagram" />
+                <img id="footer-icon" src="images/linkedin.webp" alt="linkedin" />
               </div>
             </div>
           </footer>
         </div>
-        <div class="third"></div>
+        <div class="third" style="box-shadow: 0 0 12px rgb(220, 218, 218); height: 600px; margin-top: 2rem">
+          <li style="list-style: none; position: relative; top: 20px; left: 7px; opacity: 0.9; font-size: 15px">Queue</li>
+        </div>
       </div>
     </main>
   </body>
